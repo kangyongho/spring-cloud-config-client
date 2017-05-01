@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://mirlang2.ddns.net/config-server
+      name: master-config
+
+management:
+    security:
+      enabled: false
